@@ -1,0 +1,28 @@
+{
+  "name": "hw-js-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maksym-Ryaboshapka/hw-js-6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maksym-Ryaboshapka/hw-js-6/issues"
+  },
+  "homepage": "https://github.com/Maksym-Ryaboshapka/hw-js-6#readme",
+  "dependencies": {
+    "gh-pages": "^6.2.0",
+    "parcel": "^2.13.3",
+    "pnotify": "^5.2.0"
+  }
+}
